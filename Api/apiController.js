@@ -1,6 +1,6 @@
 // apiController.js
 //Controlador da API. Aqui que trato as os códigos de erro que serão lançados pela API
-const GitHubApi = require('./githubapi'); // Importa a lógica da API do GitHub
+const GitHubApi = require('./GitHubapi'); // Importa a lógica da API do GitHub
 const logger = require('./logger'); // Importa o logger
 
 class apiController {
