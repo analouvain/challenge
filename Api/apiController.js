@@ -1,9 +1,9 @@
 // apiController.js
 //Controlador da API. Aqui que trato as os códigos de erro que serão lançados pela API
-const GitHubApi = require('./githubApi'); // Importa a lógica da API do GitHub
+const GitHubApi = require('./githubapi'); // Importa a lógica da API do GitHub
 const logger = require('./logger'); // Importa o logger
 
-class ApiController {
+class apiController {
     // Método para manipular a requisição e retornar informações do usuário
     static async handleGetUser(req, res) {
         const username = req.params.username; // Obtém o nome de usuário da URL
@@ -30,4 +30,4 @@ class ApiController {
     }
 }
 
-module.exports = ApiController; // Exporta a classe ApiController
+module.exports = apiController; // Exporta a classe ApiController
