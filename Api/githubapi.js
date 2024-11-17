@@ -3,7 +3,7 @@ const https = require('https'); // Módulo nativo para fazer chamadas HTTPS
 const logger = require('./logger'); // Importa o logger
 const config = require('./config'); // Importa as configurações
 
-class GitHubApi {
+class githubapi {
     // Método para obter informações sobre um usuário
     static async getUser(username) {
         const url = `${config.GITHUB_ENDPOINT}/users/${username}`;
@@ -50,4 +50,4 @@ class GitHubApi {
     }
 }
 
-module.exports = GitHubApi; // Exporta a classe GitHubApi
+module.exports = githubapi; // Exporta a classe GitHubApi
