@@ -26,8 +26,10 @@ http://18.228.222.208:3000/
 **Exemplos de uso:**
 
 http://18.228.222.208:3000/users/takenet
+
 (Retorna informações do usuário takenet)
 
 http://18.228.222.208:3000/repos/takenet/C%23
+
 (Retorna os repositórios do usuário takenet existentes na linguagem C#)
 
