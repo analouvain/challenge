@@ -27,11 +27,7 @@ class githubapi {
     static async getUserRepos(username, language) {
         const url = `${config.GITHUB_ENDPOINT}/users/${username}/repos`;
         try {
-            const response = await fetch(url, { 
-                headers: { 
-                    'User-Agent': 'AnaToken',
-                    'Authorization': 'token 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'
-                 } });
+            const response = await fetch(url, { headers: { 'User-Agent': config.USER_AGENT } });
             const repos = await response.json();
 
             // Filtrando pelos repositórios na linguagem especificada
