@@ -17,6 +17,7 @@ A estrutura do projeto da API está organizada da seguinte forma:
 
 
 **DEPLOY**
+
 A Api foi publicada em um servidor AWS. 
 Endpoint da API:
 
